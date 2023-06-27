@@ -11,12 +11,17 @@ numpy
 python3 statminer.py -i {INPUT_VIDEO} -o {OUTPUT_FILE}
 
   -h, --help            show this help message and exit
+  
   -i INFILE, --infile INFILE		 Path to the video file.
+  
   -o OUTFILE, --outfile OUTFILE		 File to ouput data. (defaults to csv, if -p flag it will save as a pickle)
+  
   -p, --pickle         			 Save output as a pickle
+  
   -m, --manual         			 Makes it so if an error is detected with the OCR it will display the image, and have   you manually input the data
+  
   -v, --verbose         		 Increase output verbosity.
-  -s SAVE, --saves SAVE_SCOREBOARDS 	 Save extracted scoreboard images to a dir.
+  
 
 
 
